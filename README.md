@@ -9,7 +9,7 @@ progwiUI is also for desktop! Try!
 ### Project "structure"
 
 The best "structure" for progwiUI project is:
-```
+```html
   <body />
   <script src="./progwiui.js"></script>
   <script>
@@ -23,7 +23,7 @@ But other structures are not prohibited either. So experiment!
 `progwiButton` is a button widget in progwiUI.
 
 Usage:
-```
+```javascript
 let progwiui = new progwiUI("Test");
 let button = progwiui.progwiButton(label, fontsize, cursor, x, y, width, height, command);
 ```
@@ -35,7 +35,7 @@ The `progwiButton` is suitable for use in interactive projects where control is 
 `progwiEntry` is a entry widget in progwiUI.
 
 Usage:
-```
+```javascript
 let progwiui = new progwiUI("Test");
 let entry = progwiui.progwiEntry(placeholder, x, y);
 ```
@@ -47,7 +47,7 @@ The `progwiEntry` is suitable for projects that require text input from user: fo
 `progwiLabel` is a label widget in progwiUI.
 
 Usage:
-```
+```javascript
 let progwiui = new progwiUI("Test");
 let label = progwiui.progwiLabel("Label.", 0, 0);
 ```
@@ -59,7 +59,7 @@ The `progwiLabel` is suitable for projects where text information is required: w
 `progwiCheckbox` is a checkbox widget in progwiUI.
 
 Usage:
-```
+```javascript
 let progwiui = new progwiUI("Test");
 let checkbox = progwiui.progwiCheckbox("0", "0");
 ```
@@ -71,7 +71,7 @@ The `progwiCheckbox` is suitable for use in projects where is necessary to provi
 `progwiSpace` is a `br`-like widget in progwiUI.
 
 Usage:
-```
+```javascript
 let progwiui = new progwiUI("Test");
 let space = progwiui.progwiSpace();
 ```
@@ -81,7 +81,7 @@ let space = progwiui.progwiSpace();
 You can create a real application with progwiUI via [pywebview](https://pywebview.flowrl.com/) or [GTK](https://www.gtk.org/)+[WebkitGTK](https://www.webkitgtk.org/).
 
 #### via [pywebview](https://pywebview.flowrl.com/):
-```
+```python
 import webview
 webview.create_window('Test', 'https://progwi0.github.io/progwiui')
 webview.start()
@@ -89,7 +89,7 @@ webview.start()
 
 or:
 
-```
+```python
 import webview
 
 app = '''

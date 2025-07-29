@@ -1,6 +1,6 @@
 class progwiUI{
 	constructor(appname){
-		console.log("progwiUI 1.0");
+		console.log("progwiUI 2.0");
 				
 		document.title = appname;
 
@@ -35,7 +35,7 @@ class progwiUI{
 		buttonus.style.height = hght;
 		
 		buttonus.addEventListener("mousedown", () => {
-			buttonus.style.background = "linear-gradient(to bottom, rgb(205, 205, 205), rgb(155, 155, 155))";
+			buttonus.style.background = "linear-gradient(to bottom, rgb(205, 205, 205), rgb(255, 255, 255))";
 			buttonus.style.border = "none";
 			buttonus.style.borderRadius = "5px";
 			buttonus.style.outline = "solid 1px";
